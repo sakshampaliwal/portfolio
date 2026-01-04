@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+# Personal Portfolio Website
 
-## Project info
+A modern and responsive personal portfolio built with React, Vite, TypeScript, and Tailwind CSS. Showcasing projects, skills, and professional experience.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://your-live-demo-link.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourName-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/your-profile/)
 
-## How can I edit this code?
+![Project Screenshot](./public/screenshot.png)
+*Replace with a screenshot of your portfolio's hero section.*
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+-   **Dynamic Sections:** Includes sections for Hero, About, Skills, Experience, Projects, and Contact.
+-   **Component-Based Architecture:** Built with reusable React components.
+-   **Responsive Design:** Mobile-first design that looks great on all devices.
+-   **UI Components:** Utilizes `shadcn/ui` for high-quality, accessible UI elements.
+-   **Smooth Animations:** Incorporates `framer-motion` for engaging user interactions.
+-   **Typed Codebase:** Fully written in TypeScript for better maintainability and developer experience.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+-   **Framework:** [React](https://reactjs.org/)
+-   **Build Tool:** [Vite](https://vitejs.dev/)
+-   **Language:** [TypeScript](https://www.typescriptlang.org/)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **UI Components:** [shadcn/ui](https://ui.shadcn.com/)
+-   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+-   **Routing:** [React Router](https://reactrouter.com/)
+-   **Linting:** [ESLint](https://eslint.org/)
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+You need to have [Node.js](https://nodejs.org/en/) (v18.x or later) and [npm](https://www.npmjs.com/) installed on your system.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2.  **Navigate to the project directory:**
+    ```sh
+    cd your-repo-name
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+3.  **Install dependencies:**
+    ```sh
+    npm install
+    ```
+
+4.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+    Open [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) to view it in the browser.
+
+## 📜 Available Scripts
+
+In the project directory, you can run:
+
+-   `npm run dev`: Runs the app in development mode.
+-   `npm run build`: Builds the app for production to the `dist` folder.
+-   `npm run lint`: Lints the codebase using ESLint.
+-   `npm run preview`: Serves the production build locally to preview it.
+
+## 📂 Project Structure
+
+```
+.
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Reusable components
+│   │   ├── ui/          # UI components from shadcn/ui
+│   │   ├── AboutSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   └── ...
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   ├── pages/           # Page components
+│   ├── App.tsx          # Main App component
+│   └── main.tsx         # Entry point
+├── vite.config.ts       # Vite configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
+└── package.json
 ```
 
-**Edit a file directly in GitHub**
+## 🌐 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is ready to be deployed on any static site hosting service. Some popular choices are:
 
-**Use GitHub Codespaces**
+-   [Vercel](https://vercel.com/)
+-   [Netlify](https://www.netlify.com/)
+-   [GitHub Pages](https://pages.github.com/)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Most of these platforms can be configured to automatically build and deploy your site when you push new commits to your repository.
 
-## What technologies are used for this project?
+## 📄 License
 
-This project is built with:
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details (if applicable).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📧 Contact
 
-## How can I deploy this project?
+[Your Name] - [your.email@example.com](mailto:your.email@example.com)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
