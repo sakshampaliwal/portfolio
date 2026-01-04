@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: "main" # Change this if your default branch is 'master'
+    branches: "main"
 
 permissions:
   contents: read
@@ -26,12 +26,13 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+          cp dist/index.html dist/404.html
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          # this should match the output directory of vite (default is dist)
           path: './dist'
 
   deploy:
